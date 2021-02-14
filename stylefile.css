@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(117, 109, 168);
+  background-color: rgb(65, 53, 148);
 }
 
 h1 {
@@ -11,4 +11,27 @@ h1 {
 p {
   font-family: verdana;
   font-size: 50px;
+}div {
+  background-color: rgb(79, 182, 79);
 }
+
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+  .p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
